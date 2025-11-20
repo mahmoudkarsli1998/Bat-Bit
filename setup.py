@@ -5,7 +5,7 @@ import pybind11
 ext_modules = [
     Extension(
         "bat_bit",              # The name of the module to import in Python
-        ["bat_bit.cpp"],        # The source file
+        ["python/bat_python.cpp"],        # The source file
         include_dirs=[pybind11.get_include()],
         language="c++",
         extra_compile_args=["-O3"] # Maximum Optimization Flag
