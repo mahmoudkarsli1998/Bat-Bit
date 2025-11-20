@@ -10,6 +10,9 @@
 Storing **10 Million integers** in a standard Python `set` consumes **~600 MB of RAM**.
 
 ## 🦇 The Solution
+**Bat-Bit** is a C++ engine using **Sparse Paging**. It only allocates memory for numbers that exist.
+* **Speed:** O(1) Instant Lookup.
+* **Memory:** ~120 MB (80% Savings).
 
 ## 💻 Usage
 
@@ -39,6 +42,14 @@ bruce = bat_bit.BatCave()
 # Deploy 10 Million items in milliseconds
 bruce.deploy_batch(data)
 ```
+
+## ⚡ Benchmarks
+
+### 💾 Memory Comparison (Lower is Better)
+![Memory Comparison](assets/memory_comparison.svg)
+
+### 🔥 Speed Comparison (Higher is Better)
+![Speed Comparison](assets/speed_comparison.svg)
 
 ## 🔐 Securing Your Code
 **Bat-Bit** demonstrates how to secure your intellectual property:
