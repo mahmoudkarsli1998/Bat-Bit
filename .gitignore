@@ -11,3 +11,10 @@ dist/
 # IDE settings
 .vscode/
 .idea/
+
+# Node.js build artifacts
+build/
+dist/
+node_modules/
+Node_modules/
+node/
