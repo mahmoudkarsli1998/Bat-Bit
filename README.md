@@ -1,3 +1,6 @@
+
+<img width="1024" height="1024" alt="Gemini_Generated_Image_lr4c5rlr4c5rlr4c" src="https://github.com/user-attachments/assets/8b7a1efd-08fe-4fb5-9fcb-c0491ba61a67" />
+
 # 🦇 Bat-Bit Engine
 
 > **"It's not who I am underneath, but what I do that defines me."**
